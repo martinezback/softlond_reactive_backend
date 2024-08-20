@@ -1,0 +1,11 @@
+###
+POST http://localhost:8081/api/plantilla/save
+
+Content-Type: application/json
+{
+    "id":"1",
+    "nombre": "Certificado",
+    "fecha":"2024-08-01",
+    "descripcion":"plantilla2",
+    "fechaActualizacion":"2024-08-02"
+}
